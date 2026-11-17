@@ -1,1086 +1,313 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Aka Abraham — Ingénieur Cybersécurité & IA</title>
-  <meta name="description" content="Portfolio d'Aka Abraham, ingénieur cybersécurité et intelligence artificielle basé à Abidjan.">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/font-awesome.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/improvements.css">
-
-   <!--=============== REMIXICONS ===============-->
-   <link
-   rel="stylesheet"
-   href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-   crossorigin=""/>
-
-      <!--- favicon-->
-      <link
-      rel="shortcut icon"
-      href="./img/logo.png"
-      type="image/svg+xml"
-    />
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css"
-  crossorigin=""
-/>
-<link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
+  <title>Aka Abraham — Ingénieur Cybersécurité & IA</title>
+  <meta name="description" content="Portfolio d'Aka Abraham, ingénieur cybersécurité et intelligence artificielle basé à Abidjan : pentest, audit des SI, SOC, machine learning et développement full-stack.">
+  <meta name="theme-color" content="#05070d">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%2305070d'/><text x='50%' y='56%' font-family='monospace' font-size='30' font-weight='700' fill='%2339ff9f' text-anchor='middle' dominant-baseline='middle'>AA</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700;800&family=Manrope:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/neo.css">
 </head>
 <body>
 
-    <!--Page loader-->
-    <div class="page-loader">
-      <div class=""></div>
-      <div class=""></div>
-      <div class=""></div>
-    </div>
-    <!--Page loader-->
-
-    <!--Circles-->
-      <div class="bg-circles">
-        <div class="circle-1"></div>
-        <div class="circle-2"></div>
-        <div class="circle-3"></div>
-        <div class="circle-4"></div>
-        <div class="circle-5"></div>
-        <div class="circle-6"></div>
-        <div class="circle-7"></div>
-
-      </div>
-    <!--Circles-->
-
-    <!--Overlay-->
-    <div class="overlay">
-    </div>
-    <!--Overlay-->
-
-  <div class="main hidden">
-
-    <!--Header-->
-    <header class="header">
-      <div class="container">
-        <div class="row flex-end">
-          <button type="button" class="nav-toggler">
-            <span></span>
-          </button>
-          <nav class="nav">
-            <div class="nav-inner">
-              <ul>
-
-                <li><img src="profile.jpg" alt="" height="60px" width="60px" class="img-box" style="object-fit:cover; border-radius:50%;"></li> <br> <br>
-                <li><a href="#home" class="nav-item link-item">Home</a></li>
-                <li><a href="#about" class="nav-item link-item">About</a></li>
-                <li><a href="#certifications" class="nav-item link-item">Certifications</a></li>
-                <li><a href="#projects" class="nav-item link-item">Projects</a></li>
-                <li><a href="#contact" class="nav-item link-item">Contact</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-    <!--Header-->
-                <!-- <div class="row">
-                  <div class="home-img">
-                    <div class="img-box">
-                      <img src="profile.jpg" alt="">
-                    </div>
-                  </div></div> -->
-    <section class="home-section align-items-center active" id="home">
-      <div class="container">
-        <div class="row ">
-          <div class="about-img">
-            <div class="img-box">
-              <img src="profile.jpg" alt="ABRAHAM" style="width:100%; border-radius:50%; object-fit:cover; aspect-ratio:1;">
-            </div>
-          </div>
-          <div class="home-text">
-            <p>Bienvenue sur mon portfolio</p>
-            <h1 style="color: white;">AKA ABRAHAM</h1>
-            <h2>Ingénieur Cybersécurité &nbsp;|&nbsp; Pentest & Ethical Hacking &nbsp;|&nbsp; Audit des SI &nbsp;|&nbsp; Machine Learning & IA &nbsp;|&nbsp; Data Engineer &nbsp;|&nbsp; Cloud</h2>
-            <a href="#about" class="btn link-item">More about me</a>
-            <a href="#projects" class="btn link-item">Projects</a>
-            <br><br><br>
-
-<!--Play music-->
-<h3><i class="ri-music-ai-line"></i> Tu veux jouer de la musique en defilant ? (cliquer et attender) </h3> <br>
-<div class="audio-player">
-  <button id="playPauseBtn" class="play"><i class="ri-play-mini-fill"></i> </button>
-  <div class="progress-container">
-    <span id="currentTime">0:00</span>
-    <input type="range" id="progressBar" value="0" max="100">
-    <span id="duration">0:00</span>
-  </div>
-</div>
-<audio id="audio" src="audio.mp3" loop></audio>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--Home-->
-
-    <!--About me-->
-    <section class="about-section sec-padding" id="about">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h3>About me</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="about-img">
-            <div class="img-box">
-              <img src="profile.jpg" alt="">
-            </div>
-          </div>
-          <div class="about-text">
-            <p>
-              <strong style="color: white;">Objectif :</strong> améliorer mes compétences en cybersécurité, gagner de l'expérience professionnelle et participer activement au succès de l'entreprise pour laquelle je travaille. <br><br>
-              Étudiant en Master Cybersécurité et Intelligence Artificielle à l'ESATIC, j'ai une expérience en Data & IA chez Orange Côte d'Ivoire et en audit des systèmes d'information à l'OSEP. Je suis une personne motivée, curieuse et passionnée par la technologie. Toujours prête à relever des défis, j'aime apprendre et explorer de nouvelles innovations. Ma patience me permet de persévérer dans les projets et de toujours donner le meilleur de moi-même. Le travail est une valeur fondamentale pour moi, et je cherche constamment à me surpasser, en particulier dans les défis techniques qui me poussent à sortir de ma zone de confort. <br> <br>
-
-
-            <p style="color: white;">Ma passion pour la technologie m’encourage à innover, à tester, et à créer des solutions qui peuvent avoir un impact positif. J'aspire à être un expert dans mon domaine, mais aussi à utiliser mes compétences pour contribuer à un avenir plus connecté et intelligent <br><br>
-
-
-
-              <h3>Skills</h3>
-            <div class="skills" style="    animation: bouncedown 6s ease-in-out infinite;
-">
-              <div class="skill-item">Pentest & Ethical Hacking</div>
-              <div class="skill-item">Microsoft Sentinel</div>
-              <div class="skill-item">Analyste SOC</div>
-              <div class="skill-item">CLOUD</div>
-              <div class="skill-item">HADOOP (Cloudera)</div>
-              <div class="skill-item">GOUVERNANCE DES SI</div>
-              <div class="skill-item">AUDIT DES SI</div>
-              <div class="skill-item">Pentest Junior</div>
-              <div class="skill-item">ADMINISTRATION RESEAUX, SYSTEMES</div>
-              <div class="skill-item">Php</div>
-              <div class="skill-item">Laravel</div>
-              <div class="skill-item">Python</div>
-              <div class="skill-item">JAVA ( JEE )</div>
-              <div class="skill-item">Typescript</div>
-              <div class="skill-item">Gestion de projet</div>
-              <div class="skill-item">Machine Learning</div>
-              <div class="skill-item">Frontend design</div>
-              <div class="skill-item">React js</div>
-              <div class="skill-item">Node js</div>
-              <div class="skill-item">Next js</div>
-              <div class="skill-item">MySQL</div>
-              <div class="skill-item">MongoDB</div>
-              <div class="skill-item">React Native</div>
-              <div class="skill-item">Data Analyste</div>
-              <div class="skill-item">IA</div>
-
-            </div>
-
-            <h3>Soft skills</h3>
-            <div class="skills">
-              <div class="skill-item">Esprit d'équipe</div>
-              <div class="skill-item">Créativité</div>
-              <div class="skill-item">Détermination</div>
-              <div class="skill-item">Esprit d'analyse</div>
-              <div class="skill-item">Bonne communication</div>
-              <div class="skill-item">Discipline</div>
-              <div class="skill-item">Résilience</div>
-            </div>
-
-            <p style="color: white;"><strong>Langues :</strong> Français (natif) &nbsp;|&nbsp; Anglais (moyen)<br>
-            <strong>Loisirs :</strong> Technologie, Musique, Lecture, Football &nbsp;|&nbsp; Permis de conduire</p>
-            <div class="about-tabs">
-              <button type="button" data-target="#education" class="tab-item active">Education</button>
-              <button type="button" data-target="#experience" class="tab-item"> Experience</button>
-              <button type="button" data-target="#volunteering" class="tab-item"> Conference</button>
-
-            </div>
-
-            <!--Education-->
-            <div class="tab-content active" id="education">
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2025-2027</span>
-                  <h4><span>ESATIC
-                  </span></h4>
-                  <p>Master en cybersécurité et intelligence artificielle</p>
-                </div>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2026-2027</span>
-                  <h4><span>DATACAMP (en ligne)
-                  </span></h4>
-                  <p>Formation Data Engineer</p>
-                </div>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Mai - Juillet 2026</span>
-                  <h4><span>DELOPERS.INSTITUTE
-                  </span></h4>
-                  <p>Formation en GenAI et Machine Learning</p>
-                </div>
-              </div>
-
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2022-2025</span>
-                  <h4><span>INSTITUT UNIVERSITAIRE D'ABIDJAN (IUA)
-                  </span></h4>
-                  <p>Licence en Genie informatique</p>
-                </div>
-              </div>
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2022</span>
-                  <h4><span>LYCEE MUNICIPAL DE KOUMASSI
-                  </span></h4>
-                  <p>Obtention du Bac en serie D</p>
-                </div>
-              </div>
-
-
-            </div>
-            <!--Experience-->
-            <div class="tab-content" id="experience">
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Stagiaire — Data & Intelligence Artificielle</span>
-                  <h4><span>ORANGE CÔTE D'IVOIRE</span></h4>
-                  <p>Contribution au développement et à l'entraînement de modèles de Machine Learning prédictifs, préparation et exploitation des jeux de données, évaluation des performances et optimisation des algorithmes.</p>
-                </div>
-
-                <div class="timeline-item">
-                  <span class="date">Assistant stagiaire — Audit des Systèmes d'Information</span>
-                  <h4><span>OSEP (Observatoire du Service Public)</span></h4>
-                  <p>Audits de conformité et de sécurité des SI selon les référentiels en vigueur, identification de vulnérabilités et d'anomalies, rédaction de rapports d'audit avec recommandations correctives transmis aux directions concernées.</p>
-                </div>
-
-
-                <div class="timeline-item">
-                  <span class="date">Académie des jeunes développeurs fullstack</span>
-                  <p>Formation en présentiel initiée par Pro Active Swiss, une entreprise suisse</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Simulation d'une attaque de contrôle à distance avec TheFatRat</span>
-                  <p>Compréhension des mécanismes des logiciels malveillants et des moyens de s'en protéger</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Creation d'une applicaion de salon de coiffure</span>
-                  <p>realiser en PHP et en LARAVEL</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Application de gestion des notes des etudiants</span>
-                  <p>realiser en PHP</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Applicaion Boite a recette</span>
-                  <p>realiser en reactjs </p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">Analyse et visualisation des données avec POWER BI</span>
-                  <p>Analyse de donnée (Beginner)</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">prediction du cancer du sein</span>
-                  <p>Apprentissage Automatié (Machine Learning)</p>
-                </div>
-              </div>
-               <div class="timeline">
-                 <div class="timeline-item">
-                  <span class="date">assistant virtuel pour demarche administratif</span>
-                  <p>processus RAG (Retrieval Augmented Generation) avec Langchain et OpenAI</p>
-                  
-                </div>
-              </div>
-              <div class="timeline">
-                 <div class="timeline-item">
-                  <span class="date">mise en place d'un systeme pour l'agriculture de precision: cas du manioc</span>
-                  <p>Apprentissage Automatié (Machine Learning)</p>
-                </div>
-              </div>
-              <div class="timeline">
-                 <div class="timeline-item">
-                  <span class="date">developpement d'une application mobile de commande de nourriture</span>
-                  <p>developpé avec react native et node js</p>
-                </div>
-              </div>
-            </div>
-            <!--Volunteering-->
-            <div class="tab-content" id="volunteering">
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2023 </span>
-                  <h4><span> conference la lutte contre la corruption 
-                  </span></h4>
-                  <p>Lieu : sofitel Hotel Ivoire</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">2024</span>
-                  <h4><span> Jounée du Numerique
-                  </span></h4>
-                  <p>Lieu : Noom Hotel abidjan Plateau</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">21 Fevrier 2025</span>
-                  <h4><span> Salon International de L'ia de la Defense et de l'Espace (SIADE)
-                  </span></h4>
-                  <p>Lieu : Parc Des Expositions d'abidjan</p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">26 Fevrier 2025</span>
-                  <h4><span> Journée de l'Intelligence Artificielle 
-                  </span></h4>
-                  <p>Lieu : Sofitel Hotel Ivoire ( salle des congrès ) </p>
-                </div>
-              </div>
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="date">19 mai 2025</span>
-                  <h4><span> Conférence Nationale sur l'Intelligence Artificielle </span></h4>
-                  <p>Lieu : Latrille event </p>
-                </div>
-              </div>
-            </div>
-
-            <a href="https://drive.google.com/file/d/14tSjR5nrY6LwUQDn3lpFmLlZBvg0Lw4X/view?usp=sharing" target="_blank" class="btn link-item">download CV</a>
-            <a href="#contact" class="btn link-item">contact me</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--About me-->
-
-    <!--Certifications & Prices-->
-    <section class="portfolio-section sec-padding" id="certifications">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h3>Certifications & Awards <i class="ri-award-fill"></i></h3>
-          </div>
-        </div>
-        <div class="row">
-          <!--Portfolio Item-->
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/recherche.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Recherche documentaire</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">Institut polytechnique de paris</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Creative.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Creative problem-solving</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">University of Minnesota</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/apprendre.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Apprendre comment apprendre (ACA) : Des outils mentaux
-puissants qui vous aideront à maîtriser des sujets difficiles</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">DEEP EACHING SOLUTIONS</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/cssc.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Certification Cybersecurity Career Starter (CCSC)</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">Académie Hack & Fix</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Introduction.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Introduction to Computers and Office Productivity Software</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">THE HONG KONG UNIVERSITY OF SCIENCE AND TECHNOLOGY</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-           <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Creative Thinking.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Creative Thinking: Techniques and Tools for Success</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">IMPERIAL</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Study.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Study Skills for University Success</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">UC Irvine</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Writing.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Writing Skills for University Success</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">UC Irvine</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Speaking.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Speaking Skills for University Success</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">UC Irvine</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Questions.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Questions, Present Progressive and Future Tenses</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">UC Irvine</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/cs.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Cyber Security: OS Security</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">Udemy</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/cp.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">MCP for Leaders: Architecting Context-Driven AI</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="">Udemy</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/bases.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">bases gestion de Projet</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                 
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/NNSACEWFVMH6">Google</a></span></li>
-                  <div class="description"><br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/initiation.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">initiation au projet</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/PQB6JXMWUB4E">Google</a></span></li>
-                  <div class="description">
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/planicaion.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Planification au projet</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/2RT8B2UP3JTE">Google</a></span></li>
-                  <div class="description"> <br>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/gestion.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Gestion Agile</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/KCNH7N20PQ87">Google</a></span></li>
-                  <div class="description"> <br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/execution.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">execution de projet</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/KCNH7N20PQ87">Googl</a></span></li>
-                  <div class="description"> <br>
-
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/data.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">data analyste</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-               
-                  <li>Agency - <span><a href="https://www.coursera.org/account/accomplishments/verify/4H0KQNDCFGMW">Google</a></span></li>
-                  <div class="description"> <br>
-                   
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="certif.jpg" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">certificat de reussite</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-               
-                  <li>Agency - <span><a href="#">Google</a></span></li>
-                  <div class="description"> <br>
-                   
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="special.jpg" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">Diplome special</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-               
-                  <li>Agency - <span><a href="#">Google</a></span></li>
-                  <div class="description"> <br>
-                   
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!--Portfolio Item-->
-
-        </div>
-      </div>
-    </section>
-    <!--Certifications-->
-
-    <!--Projects-->
-    <section class="portfolio-section sec-padding" id="projects">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h3>Projects <i class="ri-archive-stack-fill"></i></h3>
-          </div>
-        </div>
-        <div class="row">
-          <!--Portfolio Item-->
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/cs.png" alt="TheFatRat">
-            </div>
-            <h3 class="portfolio-item-title">Simulation d'une attaque de contrôle à distance avec TheFatRat</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>TheFatRat est un outil qui permet de simuler des attaques de contrôle à distance afin de comprendre les mécanismes des logiciels malveillants et les moyens de s'en protéger. Projet réalisé en environnement de laboratoire contrôlé.<span><a href="#"></a></span></li>
-                  <div class="description"><br>
-                    <strong>Technologies :</strong> Kali Linux, TheFatRat, Metasploit, Pentest
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/salon.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">gestion de salon de coiffure en php</h3>
-            <button class="btn view-project-btn" type="button">View<i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>cette application permet au client de facilement trouver un salon de coiffure. elle a été developpé en PHP <span><a href="#"></a></span></li>
-                  <div class="description">
-                    <br>
-                    
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/ml.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">prediction du cancer du sein</h3>
-            <button class="btn view-project-btn" type="button"> View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>apprantissage supervisé (machine learning) grace au image le systeme peut detecter le cancer <span><a href="#"></a></span></li>
-                  <div class="description">
-                    <br>
-                              
-                  </div>
-                </ul>
-              </div>
-            </div>
-
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="note.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">gestion des notes des etudiants</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>cette application a été developpé en PHP permettant au enseignant de facilement ajouter des notes sur une plateformme et aussi permet au etudiant d'y acceder  <span><a href="#"></a></span></li>
-
-                  <div class="description"><br>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/virtuel.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">IA : assistant virtuel pour démarches administratives</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>l'assistant virtuel pour demarche administif a été developpé en react et node js en implementant le processus RAG (Retrieval Augmented Generation) avec Langchain et OpenAI. cette application facilité le processus administatif  <span><a href="#"></a></span></li>
-
-                  <div class="description"><br>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/precision.png" alt="Cert">
-            </div>
-            <h3 class="portfolio-item-title">systeme intelligent pour l'agriculture de precision : cas du manioc</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i> </button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>ManiocIA est une application web developpé en react et node js qui permet de predire la production d'un manioc et d'analyser les maladies des plantes grace au machine learning <span><a href="#"></a></span></li>
-
-                  <div class="description"><br>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          
-          <!--Portfolio Item-->
-
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/culturechain.png" alt="CulturaTrace CI">
-            </div>
-            <h3 class="portfolio-item-title">CulturaTrace CI — Application data-driven et blockchain pour la traçabilité du tourisme</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>CulturaTrace CI utilise la blockchain et l'IA pour sécuriser et promouvoir le tourisme culturel en Côte d'Ivoire. Plateforme intégrant la Blockchain, l'Intelligence Artificielle et les NFT pour la traçabilité, la sécurité et la promotion du patrimoine. Billets d'entrée sous forme de NFT, détection de fraudes et mise en valeur des sites culturels.<span><a href="https://github.com/bryan01-14/v0-blockchain-tourism-app.git" target="_blank"> Voir sur GitHub</a></span></li>
-                  <div class="description"><br>
-                    <strong>Technologies :</strong> Blockchain, NFT, IA, React, Node.js
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <!--Portfolio Item-->
-          <div class="portfolio-item">
-            <div class="portfolio-item-thumbnail">
-              <img src="./img/Image7.jpg" alt="ExpressMiam">
-            </div>
-            <h3 class="portfolio-item-title">ExpressMiam — Application de Livraison de Nourriture à Abidjan</h3>
-            <button class="btn view-project-btn" type="button">View <i class="ri-arrow-right-s-fill"></i></button>
-            <div class="portfolio-item-details">
-              <div class="general-info">
-                <ul>
-                  <li>Application mobile de livraison de repas rapide à Abidjan. Géolocalisation des restaurants à proximité, commande en ligne, suivi de livraison en temps réel et paiement intégré via Orange Money, Wave, MTN Money, Visa et paiement à la livraison.<span><a href="#"> Projet personnel</a></span></li>
-                  <div class="description">
-                    <br><strong>Technologies :</strong> React Native, Node.js, Geolocation API, PAYTECH
-                    <br><br>
-                    <strong>Aperçus de l'application :</strong>
-                    <div class="expressmiam-gallery">
-                      <img src="./img/expressmiam6.jpg" alt="Splash">
-                      <img src="./img/expressmiam4.jpg" alt="Onboarding 1">
-                      <img src="./img/expressmiam5.jpg" alt="Onboarding 2">
-                      <img src="./img/expressmiam3.jpg" alt="Restaurants">
-                      <img src="./img/expressmiam2.jpg" alt="Commande">
-                      <img src="./img/expressmiam1.jpg" alt="Paiement">
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-    <!--Projects-->
-
-    <!--Contact-->
-    <section class="contact-section sec-padding" id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="section-title">
-            <h3>Contact me</h3>
-          </div>
-        </div>
-        <div class="row">
-         <div class="contact-form">
-            <form>
-              <div class="row">
-                <div class="input-group">
-                  <input type="text" placeholder="Name" class="input-control" required>
-                </div>
-                <div class="input-group">
-                  <input type="Email" placeholder="Email" class="input-control" required>
-                </div>
-                <div class="input-group">
-                  <input type="Subject" placeholder="Subject" class="input-control" required>
-                </div>
-                <div class="input-group">
-                  <textarea placeholder="Message" class="input-control" required></textarea>
-                </div>
-                <div class="submit-btn">
-                  <button type="submit" class="btn"> <a href="mailto:abraham.aka2025@esatic.edu.ci" style="color: #4c2b08;" target="_blank">Send</a> </button>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="contact-info">
-            <div class="contact-info-item">
-              <h3>Email</h3>
-              <p>abraham.aka2025@esatic.edu.ci</p>
-            </div>
-            <div class="contact-info-item">
-              <h3>Phone</h3>
-              <p>+225 0545358335 / 0701983824</p>
-            </div>
-            <div class="contact-info-item">
-              <h3>Adresse</h3>
-              <p>Cocody, 2 Plateaux — Abidjan, Côte d'Ivoire</p>
-            </div>
-            <div class="contact-info-item">
-              <h3>Follow me</h3>
-              <div class="social-links">
-                <a href="https://www.linkedin.com/in/abraham-aka-834b6b321/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
-                <a href="http://wa.me/2250545358335"  target="_blank"><i class="ri-whatsapp-fill"></i></a>
-                <a href="https://x.com/Aka01_17"  target="_blank"><i class="ri-twitter-x-line"target="_blank"></i></a>
-                <a href="https://www.instagram.com/ireneamedji/"  target="_blank"><i class="ri-instagram-fill" target="_blank"></i></a>
-                <a href="https://github.com/bryan01-14"  target="_blank"><i class="ri-github-fill"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer"
-        style="text-align: center;
-        margin-top :20px;"
-        >
-          Website designed by <a href="https://www.linkedin.com/in/ireneamedji/" style="color: rgb(207, 206, 206);">Aka abraham <i class="ri-bear-smile-line"></i> </a>
-      </div>
-    </section>
-    <!--Contact-->
-
-  </div>
-
-  <!--Certification detail-->
-  <div class="portfolio-popup">
-    <div class="pp-inner">
-      <div class="pp-content">
-        <div class="pp-header">
-          <button type="button" class="btn pp-close" ><i class="ri-close-line"></i></button>
-          <div class="pp-thumbnail" style="text-align: center;">
-            <img src="profile.jpg" alt="cert1">
-          </div>
-          <h3></h3>
-        </div>
-        <div class="pp-body">
-
-        </div>
-      </div>
+  <!-- Boot loader -->
+  <div class="boot" id="boot" aria-hidden="true">
+    <div class="boot-inner">
+      <div class="boot-line"><span class="g">root@abraham</span>:~$ ./init_portfolio.sh</div>
+      <div class="boot-line d1">[ OK ] Chargement des modules sécurité…</div>
+      <div class="boot-line d2">[ OK ] Initialisation des modèles IA…</div>
+      <div class="boot-line d3">[ OK ] Accès autorisé. Bienvenue.</div>
+      <div class="boot-bar"><span></span></div>
     </div>
   </div>
-  <!--Certification detail-->
-  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
-  <script>
-  const lenis = new Lenis({
-    duration: 1.2,
-    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)), // https://www.desmos.com/calculator/brs54l4xou
-    direction: 'vertical', // vertical, horizontal
-    gestureDirection: 'vertical', // vertical, horizontal, both
-    smooth: true,
-    mouseMultiplier: 1,
-    smoothTouch: false,
-    touchMultiplier: 2,
-    infinite: false,
-  })
-  //get scroll value
-  lenis.on('scroll', ({ scroll, limit, velocity, direction, progress }) => {
-    console.log({ scroll, limit, velocity, direction, progress })
-  })
-  function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
-  }
-  requestAnimationFrame(raf)
-  </script>
 
+  <div class="progress" id="progress"></div>
+  <div class="cursor-glow" id="glow"></div>
+  <canvas id="net" aria-hidden="true"></canvas>
+  <div class="grain" aria-hidden="true"></div>
 
-<script src="js/script.js"></script>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@0.2.28/bundled/lenis.js"></script>
+  <!-- NAV -->
+  <header class="nav" id="nav">
+    <a href="#home" class="brand"><span class="brand-mark">AA</span><span class="brand-txt">aka<span class="g">.abraham</span></span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">À propos</a>
+      <a href="#skills">Compétences</a>
+      <a href="#parcours">Parcours</a>
+      <a href="#projects">Projets</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact" class="nav-cta">Contact <i class="ri-arrow-right-up-line"></i></a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span></button>
+  </header>
 
+  <main>
 
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-left">
+        <div class="status reveal"><span class="dot"></span> Disponible pour stage & opportunités — Abidjan, CI</div>
+        <h1 class="hero-title reveal">
+          <span class="line">Aka</span>
+          <span class="line outline">Abraham</span>
+        </h1>
+        <p class="hero-role reveal">
+          <span class="mono g">&gt;</span> <span id="typed"></span><span class="caret">_</span>
+        </p>
+        <p class="hero-sub reveal">
+          Étudiant en Master <strong>Cybersécurité & Intelligence Artificielle</strong> à l'ESATIC.
+          Je sécurise les systèmes, j'audite les SI et je construis des solutions IA qui ont un impact réel.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#projects" class="btn btn-primary"><i class="ri-terminal-box-line"></i> Voir mes projets</a>
+          <a href="https://drive.google.com/file/d/14tSjR5nrY6LwUQDn3lpFmLlZBvg0Lw4X/view?usp=sharing" target="_blank" rel="noopener" class="btn btn-ghost"><i class="ri-download-2-line"></i> Télécharger le CV</a>
+        </div>
+        <div class="hero-socials reveal">
+          <a href="https://github.com/bryan01-14" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/abraham-aka-834b6b321/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+          <a href="http://wa.me/2250545358335" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+          <a href="mailto:abraham.aka2025@esatic.edu.ci" aria-label="Email"><i class="ri-mail-line"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="portrait">
+          <div class="portrait-ring"></div>
+          <img src="profile.jpg" alt="Portrait d'Aka Abraham">
+          <div class="scan"></div>
+          <div class="tag tag-1"><i class="ri-shield-keyhole-line"></i> Pentest</div>
+          <div class="tag tag-2"><i class="ri-brain-line"></i> Machine Learning</div>
+          <div class="tag tag-3"><i class="ri-radar-line"></i> SOC · Sentinel</div>
+        </div>
+        <div class="terminal">
+          <div class="term-head"><span></span><span></span><span></span><em>abraham@kali: ~</em></div>
+          <div class="term-body" id="term"></div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-hint" aria-label="Défiler"><span></span></a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Pentest</span><i>✦</i><span>Ethical Hacking</span><i>✦</i><span>Audit des SI</span><i>✦</i><span>Microsoft Sentinel</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>RAG · GenAI</span><i>✦</i><span>Blockchain</span><i>✦</i><span>Data Engineering</span><i>✦</i><span>Cloud</span><i>✦</i>
+        <span>Pentest</span><i>✦</i><span>Ethical Hacking</span><i>✦</i><span>Audit des SI</span><i>✦</i><span>Microsoft Sentinel</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>RAG · GenAI</span><i>✦</i><span>Blockchain</span><i>✦</i><span>Data Engineering</span><i>✦</i><span>Cloud</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="sec-head reveal">
+        <span class="sec-num">01</span>
+        <h2>À propos <span class="g">de moi</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">Améliorer mes compétences en cybersécurité, gagner de l'expérience professionnelle et participer activement au succès de l'entreprise pour laquelle je travaille.</p>
+          <p>Motivé, curieux et passionné par la technologie, j'aime relever des défis techniques qui me poussent hors de ma zone de confort. Mon parcours mêle <strong>sécurité offensive</strong>, <strong>audit des systèmes d'information</strong> et <strong>intelligence artificielle</strong> — avec des expériences chez <strong>Orange Côte d'Ivoire</strong> (Data & IA) et à l'<strong>OSEP</strong> (audit des SI).</p>
+          <p>Je m'entraîne régulièrement sur des labs de pentest et je construis des projets concrets : traçabilité blockchain du tourisme, assistants RAG, modèles prédictifs.</p>
+          <div class="about-meta">
+            <div><i class="ri-map-pin-2-line"></i> Cocody, 2 Plateaux — Abidjan</div>
+            <div><i class="ri-translate-2"></i> Français (natif) · Anglais (moyen)</div>
+            <div><i class="ri-steering-2-line"></i> Permis de conduire</div>
+            <div><i class="ri-football-line"></i> Technologie, musique, lecture, football</div>
+          </div>
+        </div>
+        <div class="stats reveal">
+          <div class="stat"><b data-count="2">0</b><span>stages professionnels</span></div>
+          <div class="stat"><b data-count="8" data-suffix="+">0</b><span>projets réalisés</span></div>
+          <div class="stat"><b data-count="20" data-suffix="+">0</b><span>certifications & formations</span></div>
+          <div class="stat"><b data-count="5">0</b><span>conférences tech</span></div>
+          <div class="soft">
+            <h4><i class="ri-user-heart-line"></i> Soft skills</h4>
+            <div class="chips">
+              <span>Esprit d'équipe</span><span>Créativité</span><span>Détermination</span><span>Esprit d'analyse</span><span>Communication</span><span>Discipline</span><span>Résilience</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="sec-head reveal">
+        <span class="sec-num">02</span>
+        <h2>Arsenal <span class="g">technique</span></h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card tilt reveal" style="--c:#39ff9f">
+          <div class="sc-icon"><i class="ri-shield-flash-line"></i></div>
+          <h3>Cybersécurité</h3>
+          <p>Tests d'intrusion, détection et gouvernance.</p>
+          <div class="chips"><span>Pentest</span><span>Ethical Hacking</span><span>Kali Linux</span><span>Microsoft Sentinel</span><span>Analyste SOC</span><span>OSINT</span></div>
+        </article>
+        <article class="skill-card tilt reveal" style="--c:#4dd8ff">
+          <div class="sc-icon"><i class="ri-file-shield-2-line"></i></div>
+          <h3>Audit & Gouvernance</h3>
+          <p>Conformité, référentiels et recommandations.</p>
+          <div class="chips"><span>Audit des SI</span><span>Gouvernance des SI</span><span>Gestion de projet</span><span>Agile</span></div>
+        </article>
+        <article class="skill-card tilt reveal" style="--c:#b18cff">
+          <div class="sc-icon"><i class="ri-brain-line"></i></div>
+          <h3>IA & Data</h3>
+          <p>Modèles prédictifs, GenAI et pipelines de données.</p>
+          <div class="chips"><span>Machine Learning</span><span>RAG · LangChain</span><span>GenAI</span><span>Hadoop</span><span>Power BI</span><span>Data Engineering</span></div>
+        </article>
+        <article class="skill-card tilt reveal" style="--c:#ffb547">
+          <div class="sc-icon"><i class="ri-code-s-slash-line"></i></div>
+          <h3>Développement</h3>
+          <p>Web, mobile et back-end.</p>
+          <div class="chips"><span>React.js</span><span>Next.js</span><span>Node.js</span><span>React Native</span><span>TypeScript</span><span>Python</span><span>Java (JEE)</span><span>PHP · Laravel</span></div>
+        </article>
+        <article class="skill-card tilt reveal" style="--c:#ff5c8a">
+          <div class="sc-icon"><i class="ri-server-line"></i></div>
+          <h3>Infra & Cloud</h3>
+          <p>Systèmes, réseaux et bases de données.</p>
+          <div class="chips"><span>Admin systèmes & réseaux</span><span>Cloud</span><span>MySQL</span><span>MongoDB</span><span>Oracle</span></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PARCOURS -->
+    <section class="section" id="parcours">
+      <div class="sec-head reveal">
+        <span class="sec-num">03</span>
+        <h2>Mon <span class="g">parcours</span></h2>
+      </div>
+      <div class="tabs reveal" role="tablist">
+        <button class="tab active" data-tab="exp"><i class="ri-briefcase-4-line"></i> Expérience</button>
+        <button class="tab" data-tab="edu"><i class="ri-graduation-cap-line"></i> Formation</button>
+        <button class="tab" data-tab="conf"><i class="ri-mic-line"></i> Conférences</button>
+      </div>
+
+      <div class="panel active" id="exp">
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <span class="tl-date">Stage</span>
+            <h3>Stagiaire — Data & Intelligence Artificielle</h3>
+            <h4>Orange Côte d'Ivoire</h4>
+            <p>Développement et entraînement de modèles de Machine Learning prédictifs, préparation et exploitation des jeux de données, évaluation des performances et optimisation des algorithmes.</p>
+          </div>
+          <div class="tl-item reveal">
+            <span class="tl-date">Stage</span>
+            <h3>Assistant stagiaire — Audit des Systèmes d'Information</h3>
+            <h4>OSEP — Observatoire du Service Public</h4>
+            <p>Audits de conformité et de sécurité des SI selon les référentiels en vigueur, identification de vulnérabilités et d'anomalies, rédaction de rapports d'audit avec recommandations correctives transmis aux directions concernées.</p>
+          </div>
+          <div class="tl-item reveal">
+            <span class="tl-date">Bootcamp</span>
+            <h3>Académie des jeunes développeurs full-stack</h3>
+            <h4>Pro Active Swiss</h4>
+            <p>Formation en présentiel initiée par une entreprise suisse : développement web full-stack et méthodes de travail en équipe.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" id="edu">
+        <div class="timeline">
+          <div class="tl-item reveal"><span class="tl-date">2025 — 2027</span><h3>Master Cybersécurité & Intelligence Artificielle</h3><h4>ESATIC — Abidjan</h4></div>
+          <div class="tl-item reveal"><span class="tl-date">2026 — 2027</span><h3>Formation Data Engineer</h3><h4>DataCamp (en ligne)</h4></div>
+          <div class="tl-item reveal"><span class="tl-date">Mai — Juil. 2026</span><h3>Formation GenAI & Machine Learning</h3><h4>Delopers.institute</h4></div>
+          <div class="tl-item reveal"><span class="tl-date">2022 — 2025</span><h3>Licence en Génie Informatique</h3><h4>Institut Universitaire d'Abidjan (IUA)</h4></div>
+          <div class="tl-item reveal"><span class="tl-date">2022</span><h3>Baccalauréat série D</h3><h4>Lycée Municipal de Koumassi</h4></div>
+        </div>
+      </div>
+
+      <div class="panel" id="conf">
+        <div class="conf-grid">
+          <div class="conf reveal"><span>19 mai 2025</span><h3>Conférence Nationale sur l'Intelligence Artificielle</h3><p><i class="ri-map-pin-line"></i> Latrille Event</p></div>
+          <div class="conf reveal"><span>26 fév. 2025</span><h3>Journée de l'Intelligence Artificielle</h3><p><i class="ri-map-pin-line"></i> Sofitel Hôtel Ivoire</p></div>
+          <div class="conf reveal"><span>21 fév. 2025</span><h3>Salon International de l'IA, de la Défense et de l'Espace (SIADE)</h3><p><i class="ri-map-pin-line"></i> Parc des Expositions d'Abidjan</p></div>
+          <div class="conf reveal"><span>2024</span><h3>Journée du Numérique</h3><p><i class="ri-map-pin-line"></i> Noom Hôtel, Plateau</p></div>
+          <div class="conf reveal"><span>2023</span><h3>Conférence sur la lutte contre la corruption</h3><p><i class="ri-map-pin-line"></i> Sofitel Hôtel Ivoire</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="sec-head reveal">
+        <span class="sec-num">04</span>
+        <h2>Projets <span class="g">sélectionnés</span></h2>
+      </div>
+      <div class="filters reveal" id="filters">
+        <button class="filter active" data-f="all">Tous</button>
+        <button class="filter" data-f="cyber"><i class="ri-shield-line"></i> Cyber</button>
+        <button class="filter" data-f="ia"><i class="ri-robot-2-line"></i> IA & Blockchain</button>
+        <button class="filter" data-f="dev"><i class="ri-smartphone-line"></i> Web & Mobile</button>
+      </div>
+      <div class="projects" id="projectsGrid"></div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="section" id="certifications">
+      <div class="sec-head reveal">
+        <span class="sec-num">05</span>
+        <h2>Certifications <span class="g">& formations</span></h2>
+      </div>
+      <div class="certs" id="certsGrid"></div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="contact-wrap reveal">
+        <div class="contact-left">
+          <span class="sec-num">06</span>
+          <h2>Construisons quelque chose <span class="g">de sécurisé.</span></h2>
+          <p>Stage, projet, collaboration ou simple échange : ma boîte est ouverte.</p>
+          <div class="contact-list">
+            <a href="mailto:abraham.aka2025@esatic.edu.ci"><i class="ri-mail-send-line"></i><span><small>Email</small>abraham.aka2025@esatic.edu.ci</span></a>
+            <a href="tel:+2250545358335"><i class="ri-phone-line"></i><span><small>Téléphone</small>+225 05 45 35 83 35 · 07 01 98 38 24</span></a>
+            <a href="https://abrahamaka.onrender.com" target="_blank" rel="noopener"><i class="ri-global-line"></i><span><small>Site</small>abrahamaka.onrender.com</span></a>
+            <div class="nolink"><i class="ri-map-pin-2-line"></i><span><small>Adresse</small>Cocody, 2 Plateaux — Abidjan</span></div>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="field"><input id="cf-name" required placeholder=" "><label for="cf-name">Votre nom</label></div>
+          <div class="field"><input id="cf-email" type="email" required placeholder=" "><label for="cf-email">Votre email</label></div>
+          <div class="field"><input id="cf-subject" required placeholder=" "><label for="cf-subject">Sujet</label></div>
+          <div class="field"><textarea id="cf-msg" rows="5" required placeholder=" "></textarea><label for="cf-msg">Message</label></div>
+          <button type="submit" class="btn btn-primary btn-full"><i class="ri-send-plane-2-line"></i> Envoyer le message</button>
+          <p class="form-note mono">// ouvre votre client mail avec le message pré-rempli</p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="mono"><span class="g">$</span> echo "Conçu et développé par Aka Abraham" — © <span id="year"></span></div>
+    <div class="foot-social">
+      <a href="https://github.com/bryan01-14" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+      <a href="https://www.linkedin.com/in/abraham-aka-834b6b321/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="ri-linkedin-box-fill"></i></a>
+      <a href="https://x.com/Aka01_17" target="_blank" rel="noopener" aria-label="X"><i class="ri-twitter-x-line"></i></a>
+      <a href="http://wa.me/2250545358335" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+    </div>
+  </footer>
+
+  <!-- Music -->
+  <button class="music" id="music" aria-label="Lire la musique" title="Musique d'ambiance">
+    <i class="ri-music-2-line"></i>
+    <span class="bars"><i></i><i></i><i></i><i></i></span>
+  </button>
+  <audio id="audio" src="audio.mp3" loop preload="none"></audio>
+
+  <!-- Back to top -->
+  <a href="#home" class="to-top" id="toTop" aria-label="Haut de page"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="modal-close" id="modalClose" aria-label="Fermer"><i class="ri-close-line"></i></button>
+      <div id="modalContent"></div>
+    </div>
+  </div>
+
+  <script src="js/neo.js"></script>
 </body>
-<footer>
-
-</footer>
 </html>
-<!--IrouKode-->
